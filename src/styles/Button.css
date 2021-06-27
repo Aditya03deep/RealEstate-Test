@@ -1,0 +1,26 @@
+
+.Button{
+    background: #000d1a;
+    white-space: nowrap;
+    outline: none;
+    border: none;
+    min-width: 100px;
+    max-width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+    align-items: center;
+    padding: 14px 24px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+.smallbtn{
+    width: 150px;
+}
+.link{
+    text-decoration: none;
+}
+.Button:hover{
+    transform: translateY(-2px);
+} 

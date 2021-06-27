@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Navbar{
+  background-color: transparent;
+}
+
+.Navbar.colorChange{
+  background-color: #14ca7e;
+  transition: all .4s ease-in-out;
+}

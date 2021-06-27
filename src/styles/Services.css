@@ -1,0 +1,61 @@
+.Service-container{
+    height: 45vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Service-container::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.8;
+    background: url('../Images/abg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.service-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 700px;
+    flex-direction: column;
+    z-index: 999;
+    margin-top: 5rem;
+}
+.service-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .ser-int{
+    width: 100%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+ button{
+    background-color: #242424;
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 1rem;
+}
+.List-dimension{
+    height: 200vh;
+    width: 100%;
+}

@@ -1,0 +1,141 @@
+.Listing-container{
+    background-color: rgb(255, 255, 255);
+    height: 190vh;
+    width: 100%;
+    position: relative;
+    /* border: 5px solid #292a2c; */
+}
+.Listing-section{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+}   
+.list-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.list-header h1{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.list-header p{
+    margin-top: .8rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.list-info{
+    height: 100%;
+    width: 100%;
+    grid-row-gap: 0.5rem;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+
+}
+.list-cards{
+    height: 100%;
+    width: 98%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    grid-column-gap: 1rem;
+    align-items: center;
+    margin-left: 1rem;
+   
+}
+.card-items{
+    height: 90%;
+    width: 90%;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 2px;
+    display: grid;
+    grid-template-rows: 50% 30% 20%;
+    outline: none;
+}
+.card-img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+.card-img:hover{
+    transform: scaleY(1.1);
+}
+.card-img img{
+    height: 90%;
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+.card-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Card-button{
+    width: 80%;
+    background-color: #5545e9f3; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 2px 1px gray;
+  }
+  .btn-color{
+      background-color: rgba(23, 107, 23, 0.918);
+  }
+  .Card-button:hover{
+      background-color: #5545e9bb;
+  }
+  .btn-color:hover{
+    background-color: rgba(24, 146, 24, 0.829);
+}
+  .btn-content{
+    width: 100%;
+  }
+  .btn-link{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+  }
+  .btn-space{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+
+
+  .description{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(199, 199, 199, 0.795);
+  }
+  .desc{
+      color: #242424;
+      font-weight: 500;
+  }
+  .desc span{
+      color: orangered;
+  }
+  .listing-page-btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }

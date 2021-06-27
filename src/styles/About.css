@@ -1,0 +1,60 @@
+.About-container{
+    background: url('../Images/abg6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 753px;
+}
+.About-Section{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20%; 
+    height: 550px;  
+}
+.about-left{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    margin-left: 30px;  
+}
+.abt-content{
+    height: 70%;
+    width: 60%;
+}
+.about-right{
+    
+    display: flex;
+    height: 500px;
+    width: 600px;
+    justify-content: center;
+    margin-right: 30px;
+    flex-direction: column;
+    
+}
+.about-left h1{
+    
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 10px;
+}
+.about-left h1 span{
+    font-size: 6.5rem;
+}
+.about-right p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin-bottom: 2rem;
+}   
+.about-bg{
+    height: 550px;
+    width: 100%;
+}
+.about-right .hover:hover{
+    background-color:#5858589f ;
+}
